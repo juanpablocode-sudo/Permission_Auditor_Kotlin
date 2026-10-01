@@ -122,7 +122,7 @@ class MainActivity : ComponentActivity() {
                     }
                     listaDeApps.add(AppInfo(nombrePaquete,nombreVisible, score))
                 }
-                
+
 
                 dao.borrarTodas()
                 dao.insertarTodas(listaDeApps)
